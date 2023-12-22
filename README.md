@@ -45,9 +45,9 @@ PCPWN is an informative tutorial that guides you through the process of gaining 
     Type username: DOMAIN\hacker password: hacker
 
 ### TESTED ON FOLLOWING
-* WIndows 11
-* WIndows 10
-* WIndows 7
+* Windows 11
+* Windows 10
+* Windows 7
 
 ## Support
 
