@@ -11,7 +11,7 @@
 PCPWN is an informative tutorial that guides you through the process of gaining unauthorized access to administrative privileges on a computer within a school or corporate environment, all without relying on the pre-existing company-created admin account.
 
 ### 1. Access Windows RE (Recovery Environment):
-  Start by accessing recovery mode on the target system.
+  Start by accessing recovery mode on the target system. [7 Quick Ways to Boot Into the Windows Recovery Environment](https://www.makeuseof.com/ways-to-boot-into-the-windows-recovery-environment/)
     
   #### When the computer is turned off:
 
@@ -96,6 +96,10 @@ PCPWN is an informative tutorial that guides you through the process of gaining 
     Log in with your non-administrator account.
     Open PowerShell as an administrator.
     Type username: DOMAIN\hacker password: hacker
+
+Guess what? You've got the keys to the kingdom now! Your regular account? Well, it's not so regular anymore. It's been upgraded to full-on admin mode. That means you're not just a regular user – you're the boss.
+
+With these admin superpowers, you can do a whole bunch of cool stuff. Need to tweak some settings? No problem. Want to add or manage users? Easy peasy. It's like having a backstage pass to the entire system. So go ahead, explore, and make this digital world yours!
 
 ### TESTED ON FOLLOWING
 * Windows 11
