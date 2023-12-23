@@ -28,7 +28,7 @@ PCPWN is an informative tutorial that guides you through the process of gaining 
     In the Command Prompt, type notepad to open the Notepad text editor.
     select file | click save as | select this pc | select all files |
 
-### 3. Changing CMD to Utilman:
+### 3. Changing Utilman to CMD:
     Navigate to drive X (replace X with the appropriate drive).
     Go to System32 and rename cmd to utilman.
     Exit the Command Prompt.
