@@ -22,11 +22,50 @@ PCPWN is an informative tutorial that guides you through the process of gaining 
         Click the Power Button icon.
         Hold the SHIFT Key and click Restart.
 
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#"><img src="https://www.windowspasswordsrecovery.com/images/topic/fix-windows/repair-your-computer.jpg" width="300" /></a>
+        <br />
+      </a>
+    </td>
+    <td align="center">
+      <a href="#"><img src="https://i.imgur.com/Hi2fqIr.png" width="300" /></a>
+        <br />
+      </a>
+    </td>
+    <td align="center">
+     <a href="#"><img src="https://i.imgur.com/Hi2fqIr.png" width="300" /></a>
+        <br />
+      </a>
+    </td>
+</table>
+
   Select "Repair Your Computer," then navigate to "Troubleshoot," and finally, select "Command Prompt."
 
 ### 2. Utilizing Command Prompt:
     In the Command Prompt, type notepad to open the Notepad text editor.
     select file | click save as | select this pc | select all files |
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#"><img src="https://i.imgur.com/lUC9sBN.png" width="300" /></a>
+        <br />
+      </a>
+    </td>
+    <td align="center">
+      <a href="#"><img src="https://i.imgur.com/6QUeUIC.png" width="300" /></a>
+        <br />
+      </a>
+    </td>
+    <td align="center">
+     <a href="#"><img src="https://i.imgur.com/xpSfUCj.png" width="300" /></a>
+        <br />
+      </a>
+    </td>
+</table>
 
 ### 3. Changing Utilman to CMD:
     Navigate to drive X (replace X with the appropriate drive).
@@ -38,7 +77,21 @@ PCPWN is an informative tutorial that guides you through the process of gaining 
     Type the following command: 
     net user hacker hacker /add 
     net localgroup Administrators hacker /add
-   
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#"><img src="https://i.imgur.com/Ebi9VG1.png" width="300" /></a>
+        <br />
+      </a>
+    </td>
+    <td align="center">
+      <a href="#"><img src="https://i.imgur.com/HiFXNMi.png" width="300" /></a>
+        <br />
+      </a>
+    </td>
+</table>
+
 ### 5. Logging In with the New Account with admin priv:
     Log in with your non-administrator account.
     Open PowerShell as an administrator.
