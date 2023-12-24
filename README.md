@@ -36,7 +36,7 @@ PCPWN is an informative tutorial that guides you through the process of gaining 
       </a>
     </td>
     <td align="center">
-     <a href="#"><img src="https://i.imgur.com/Hi2fqIr.png" width="300" /></a>
+     <a href="#"><img src="https://i.imgur.com/xpSfUCj.png" width="300" /></a>
         <br />
       </a>
     </td>
