@@ -22,6 +22,7 @@ PCPWN is an informative tutorial that guides you through the process of gaining 
         Click the Power Button icon.
         Hold the SHIFT Key and click Restart.
 
+#### When the computer is turned on:
 
 <table>
   <tr>
